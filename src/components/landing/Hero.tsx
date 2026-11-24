@@ -13,7 +13,7 @@ export function Hero() {
           <span className="h-2 w-2 rounded-full bg-primary" />
           Passive health intelligence
         </span>
-        <h1 className="mt-5 text-5xl font-extrabold leading-[1.02] tracking-tight text-foreground sm:text-6xl lg:text-7xl">
+        <h1 className="mt-5 text-[2.6rem] font-extrabold leading-[1.05] tracking-tight text-foreground min-[360px]:text-5xl sm:text-6xl lg:text-7xl">
           All Your Health,{" "}
           <span className="relative isolate inline-block whitespace-nowrap">
             <span
@@ -41,16 +41,16 @@ export function Hero() {
           Your everyday devices collect health data. Livora brings it together and helps you
           understand your body.
         </p>
-        <div className="mt-8 flex flex-wrap justify-center gap-3 lg:justify-start">
+        <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:justify-center lg:justify-start">
           <a
             href="#devices"
-            className="rounded-full bg-foreground px-6 py-3 text-base font-semibold text-card transition-opacity hover:opacity-85"
+            className="inline-flex min-h-12 items-center justify-center rounded-full bg-foreground px-6 text-base font-semibold text-card transition-opacity hover:opacity-85"
           >
             Connect your devices
           </a>
           <a
             href="#how"
-            className="rounded-full bg-card px-6 py-3 text-base font-semibold text-foreground shadow-soft transition-colors hover:bg-lime-soft"
+            className="inline-flex min-h-12 items-center justify-center rounded-full bg-card px-6 text-base font-semibold text-foreground shadow-soft transition-colors hover:bg-lime-soft"
           >
             How it works
           </a>

@@ -150,7 +150,7 @@ export function HowItWorks() {
             <button
               type="button"
               onClick={() => setPopup("insight")}
-              className="flex w-full items-center gap-1.5 rounded-xl bg-coral-soft px-2.5 py-1.5 text-left text-xs font-semibold text-foreground transition-transform hover:-translate-y-0.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              className="flex w-full items-center gap-1.5 min-h-10 rounded-xl bg-coral-soft px-2.5 py-2 text-left text-xs font-semibold text-foreground transition-transform hover:-translate-y-0.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
             >
               <Sparkles className="h-3.5 w-3.5 shrink-0 text-coral" />
               <span className="flex-1">{BASELINE.changePercent}% below your own baseline</span>

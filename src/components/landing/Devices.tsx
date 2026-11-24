@@ -136,11 +136,11 @@ export function SectionTitle({
   return (
     <div className="mx-auto max-w-2xl text-center">
       <span className="eyebrow text-accent-foreground">{eyebrow}</span>
-      <h2 className="mt-2 text-4xl font-extrabold tracking-tight text-foreground md:text-5xl">
+      <h2 className="mt-2 text-balance text-4xl font-extrabold tracking-tight text-foreground md:text-5xl">
         {title}
       </h2>
       {sub && (
-        <p className="mt-3 text-base leading-relaxed text-muted-foreground md:text-lg">{sub}</p>
+        <p className="mt-3 text-balance text-base leading-relaxed text-muted-foreground md:text-lg">{sub}</p>
       )}
     </div>
   );
