@@ -81,10 +81,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "KNOW THYSELF" },
-      { name: "description", content: "Your Body. Your Data. Your Understanding." },
-      { property: "og:title", content: "KNOW THYSELF" },
-      { property: "og:description", content: "Your Body. Your Data. Your Understanding." },
+      { title: "LIVORA" },
+      { name: "description", content: "All Your Health, In One Place." },
+      { property: "og:title", content: "LIVORA" },
+      { property: "og:description", content: "All Your Health, In One Place." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -98,7 +98,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap",
       },
     ],
   }),

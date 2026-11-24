@@ -31,4 +31,4 @@ use the editor.
 
 ## Project rules
 
-- Single static landing page at `/` built from `src/components/landing/*`; sample numbers live in `src/lib/sample-data.ts` — keeps the hackathon pitch backend-free and easy to edit.
+- Single static landing page at `/` composed in `src/routes/index.tsx` from `src/components/landing/*` (one file per section); sample numbers live in `src/lib/sample-data.ts`, the mascot image is a CDN asset pointer in `src/assets/` — keeps the hackathon pitch backend-free and easy to edit.
