@@ -15,8 +15,12 @@ export function Hero() {
         </span>
         <h1 className="mt-5 text-5xl font-extrabold leading-[1.02] tracking-tight text-foreground sm:text-6xl lg:text-7xl">
           All Your Health,{" "}
-          <span className="relative inline-block whitespace-nowrap">
-            In One Place.
+          <span className="relative isolate inline-block whitespace-nowrap">
+            <span
+              className="animate-glow absolute -inset-x-3 inset-y-1 -z-10 rounded-3xl bg-lime blur-lg"
+              aria-hidden="true"
+            />
+            <span className="text-glow">In One Place.</span>
             <svg
               viewBox="0 0 300 16"
               preserveAspectRatio="none"
